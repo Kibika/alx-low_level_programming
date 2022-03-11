@@ -1,7 +1,15 @@
 #include <stdio.h>
+/**
+ *  * main - prints a string
+ *   * @parameterx: no parameter input
+ *   (* a blank line
+ *    * Description: Longer description of the function)?
+ *    (* section header: Section description)*
+ *     * Return: 0 because input is int
+ *      */
 
-int main(void) /* main funtion takes no argument */
+int main(void) 
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
-	return (0); /* because input is int */
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
