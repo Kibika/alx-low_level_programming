@@ -4,3 +4,4 @@ Write a script that generates the assembly code of a C code and save it in an ou
 Write a script that compiles a C file and creates an executable named cisfun.\n
 use puts\n
 Use printf to print\n
+Print size of types\n
