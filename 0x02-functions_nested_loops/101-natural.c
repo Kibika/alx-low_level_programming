@@ -5,18 +5,18 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i;
+	int n = 1024;
 	int sum = 0;
-	
-	while (i < 1024)
+
+	for (i = 0; i < n; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum =+ i;
+			sum += i;
 		}
-		i++;
 	}
-		printf("%d\n", sum);
+	printf("%d\n", sum);
 
-		return (sum);
+	return (sum);
 }
