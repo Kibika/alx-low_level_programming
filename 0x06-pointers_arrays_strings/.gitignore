@@ -5,3 +5,4 @@ _putchar.c
 2-strncpy
 3-strcmp
 4-rev_array
+5-string_toupper
