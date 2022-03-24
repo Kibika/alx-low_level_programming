@@ -7,5 +7,4 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *s);
 void print_number(int n);
-char *rot13(char *s)
-100-rot13
+char *rot13(char *s);
