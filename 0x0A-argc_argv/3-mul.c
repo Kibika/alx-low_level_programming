@@ -9,16 +9,13 @@
  */
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	int i;
-
 	if (argv[1] && argv[2])
 	{
-		i = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", i);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
 	}
 	else
-		printf("%s\n", "Error");
-	
+		printf("Error\n");
+
 	return (1);
 }
