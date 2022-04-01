@@ -7,11 +7,11 @@
  * @argv: array of arguments
  * Return: 0 or 1 if error
  */
-int main(int argc, char *argv[])
+int main(__attribute__((unused)) int argc, char *argv[])
 {
 	int i;
 
-	if (argc > 1 && argc < 4)
+	if (argv[1] && argv[2])
 	{
 		i = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", i);
