@@ -23,5 +23,6 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 	return (arr);
+	_putchar('\n');
 	free(arr);
 }
