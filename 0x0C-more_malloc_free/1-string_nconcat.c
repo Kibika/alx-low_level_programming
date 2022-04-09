@@ -27,7 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ptr[i] = s1[i];
 		i++;
 	}
-	while ((s2[j] != '\0') && (j < n))
+	while ((s2[j] != '\0') && (j <= n))
 	{
 		ptr[i] = s2[j];
 		j++;
