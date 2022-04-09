@@ -1,3 +1,2 @@
 Introduction to C Programming
 Write a script that runs a C file through the preprocessor and save the result into another file.
-functions and nested loops
