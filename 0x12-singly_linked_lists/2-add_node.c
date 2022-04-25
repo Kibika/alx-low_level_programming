@@ -38,6 +38,11 @@ list_t *add_node(list_t **head, const char *str)
 	}
 	c = _strlen(str);
 	temp->str = strdup(str);
+	if (temp == NULL)
+	{
+		free(temp);
+		return (NULL);
+	}
 	temp->len = c;
 	temp->next = *head;
 	new_node->str = temp->str;
