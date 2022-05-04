@@ -7,7 +7,10 @@
 #include <unistd.h>
 
 /**
- *
+ * create_file - create a file and add text content
+ * @filename: name of file to be created
+ * @text_content: text to be added
+ * Return: 1 or -1
  */
 
 int create_file(const char *filename, char *text_content)
@@ -26,7 +29,7 @@ int create_file(const char *filename, char *text_content)
 		len = 0;
 		while (*(text_content + len) != '\0')
 			len++;
-		wbytes = write(fd, text_content,len);
+		wbytes = write(fd, text_content, len);
 		if (wbytes == -1)
 		{
 			write(1, "fails", 6);
@@ -34,5 +37,5 @@ int create_file(const char *filename, char *text_content)
 		}
 	}
 	close(fd);
-	return(1);
+	return (1);
 }
