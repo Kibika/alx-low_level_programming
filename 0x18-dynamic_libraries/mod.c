@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void mod(int a, int b)
+int mod(int a, int b)
 {
-	printf("%d\n", a % b);
+	int mod = 0;
+
+	mod = a % b;
+	return mod;
 }

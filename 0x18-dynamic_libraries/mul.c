@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void mul(int a, int b)
+int mul(int a, int b)
 {
-	        printf("%d\n", a * b);
+	int mul = 0;
+
+	mul = a * b;
+	return mul;
 }

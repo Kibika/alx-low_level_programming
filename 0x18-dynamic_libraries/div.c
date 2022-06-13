@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void div(int a, int b)
+int div(int a, int b)
 {
-	printf("%d\n", a / b);
+	int div = 0;
+
+	div = a / b;
+	return div;
 }

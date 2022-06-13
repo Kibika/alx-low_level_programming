@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void sub(int a, int b)
+int sub(int a, int b)
 {
-	        printf("%d\n", a - b);
+	int sub = 0;
+
+	sub = a - b;
+	return sub;
 }
